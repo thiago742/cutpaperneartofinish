@@ -416,7 +416,6 @@ nav ul li a:hover {
     
     .text-video video {
         margin-top: 40px;
-        margin-left: 9%;
     }
 
     .services h1 {
@@ -442,14 +441,12 @@ nav ul li a:hover {
         height: 300px;
         margin: 0;
         margin-top: 40px;
-        margin-left: 10%;
     }
 
     #produtos button {
         width: 300px;
         margin: 0;
         margin-bottom: 40px;
-        margin-left: 10%;
     }
 
     .carouselClient {
@@ -471,12 +468,8 @@ nav ul li a:hover {
         margin: 0 auto;
     }
 
-    .social-links {
-        margin-left: 33%;
-    }
-
-        #contato h4 {
-        font-size: 14px;
+    #contato h4 {
+    font-size: 14px;
     }
 
     #contato h1 {
@@ -484,10 +477,19 @@ nav ul li a:hover {
     }
 
     .social-links {
-        margin-top: 0;
-        padding-top: 0;
+        margin-top: 40px;
     }
 
+    .social-links,
+    .mapBox,
+    .vazer,
+    .item img,
+    .text-video video,
+    #produtos button,
+    #produtos button:hover{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
 
     
 }
