@@ -474,5 +474,9 @@ nav ul li a:hover {
     .social-links {
         margin-left: 33%;
     }
+
+    .contact h4 {
+        font-size: 14px;
+    }
     
 }
